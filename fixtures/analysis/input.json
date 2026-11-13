@@ -1,0 +1,1421 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-30T00:00:00+00:00",
+  "source_versions": {
+    "operations": "r1",
+    "reference": "r1"
+  },
+  "events": [
+    {
+      "event_id": "event-0-0",
+      "device_id": "device-0",
+      "market": "south",
+      "kind": "visit",
+      "occurred_at": "2026-08-01T00:00:00+00:00",
+      "available_at": "2026-08-02T00:00:00+00:00",
+      "channel": "natural",
+      "order_id": null
+    },
+    {
+      "event_id": "event-0-1",
+      "device_id": "device-0",
+      "market": "north",
+      "kind": "consult",
+      "occurred_at": "2026-08-13T00:00:00+00:00",
+      "available_at": "2026-08-14T00:00:00+00:00",
+      "channel": "natural",
+      "order_id": null
+    },
+    {
+      "event_id": "event-1-0",
+      "device_id": "device-1",
+      "market": "south",
+      "kind": "visit",
+      "occurred_at": "2026-08-02T00:00:00+00:00",
+      "available_at": "2026-08-03T00:00:00+00:00",
+      "channel": "event",
+      "order_id": null
+    },
+    {
+      "event_id": "event-1-1",
+      "device_id": "device-1",
+      "market": "north",
+      "kind": "consult",
+      "occurred_at": "2026-08-05T00:00:00+00:00",
+      "available_at": "2026-08-06T00:00:00+00:00",
+      "channel": "event",
+      "order_id": null
+    },
+    {
+      "event_id": "event-1-2",
+      "device_id": "device-1",
+      "market": "south",
+      "kind": "purchase",
+      "occurred_at": "2026-08-08T00:00:00+00:00",
+      "available_at": "2026-08-09T00:00:00+00:00",
+      "channel": "event",
+      "order_id": "order-1"
+    },
+    {
+      "event_id": "event-2-0",
+      "device_id": "device-2",
+      "market": "south",
+      "kind": "visit",
+      "occurred_at": "2026-08-03T00:00:00+00:00",
+      "available_at": "2026-08-04T00:00:00+00:00",
+      "channel": "natural",
+      "order_id": null
+    },
+    {
+      "event_id": "event-2-1",
+      "device_id": "device-2",
+      "market": "north",
+      "kind": "consult",
+      "occurred_at": "2026-08-15T00:00:00+00:00",
+      "available_at": "2026-08-16T00:00:00+00:00",
+      "channel": "natural",
+      "order_id": null
+    },
+    {
+      "event_id": "event-2-2",
+      "device_id": "device-2",
+      "market": "south",
+      "kind": "purchase",
+      "occurred_at": "2026-08-27T00:00:00+00:00",
+      "available_at": "2026-08-28T00:00:00+00:00",
+      "channel": "natural",
+      "order_id": "order-2"
+    },
+    {
+      "event_id": "event-3-0",
+      "device_id": "device-3",
+      "market": "south",
+      "kind": "visit",
+      "occurred_at": "2026-08-04T00:00:00+00:00",
+      "available_at": "2026-08-05T00:00:00+00:00",
+      "channel": "event",
+      "order_id": null
+    },
+    {
+      "event_id": "event-3-1",
+      "device_id": "device-3",
+      "market": "north",
+      "kind": "consult",
+      "occurred_at": "2026-08-07T00:00:00+00:00",
+      "available_at": "2026-08-08T00:00:00+00:00",
+      "channel": "event",
+      "order_id": null
+    },
+    {
+      "event_id": "event-3-2",
+      "device_id": "device-3",
+      "market": "south",
+      "kind": "purchase",
+      "occurred_at": "2026-08-10T00:00:00+00:00",
+      "available_at": "2026-08-11T00:00:00+00:00",
+      "channel": "event",
+      "order_id": "order-3"
+    },
+    {
+      "event_id": "event-4-0",
+      "device_id": "device-4",
+      "market": "south",
+      "kind": "visit",
+      "occurred_at": "2026-08-05T00:00:00+00:00",
+      "available_at": "2026-08-06T00:00:00+00:00",
+      "channel": "natural",
+      "order_id": null
+    },
+    {
+      "event_id": "event-4-1",
+      "device_id": "device-4",
+      "market": "north",
+      "kind": "consult",
+      "occurred_at": "2026-08-17T00:00:00+00:00",
+      "available_at": "2026-08-18T00:00:00+00:00",
+      "channel": "natural",
+      "order_id": null
+    },
+    {
+      "event_id": "event-5-0",
+      "device_id": "device-5",
+      "market": "south",
+      "kind": "visit",
+      "occurred_at": "2026-08-06T00:00:00+00:00",
+      "available_at": "2026-08-07T00:00:00+00:00",
+      "channel": "event",
+      "order_id": null
+    },
+    {
+      "event_id": "event-5-1",
+      "device_id": "device-5",
+      "market": "north",
+      "kind": "consult",
+      "occurred_at": "2026-08-09T00:00:00+00:00",
+      "available_at": "2026-08-10T00:00:00+00:00",
+      "channel": "event",
+      "order_id": null
+    },
+    {
+      "event_id": "event-5-2",
+      "device_id": "device-5",
+      "market": "south",
+      "kind": "purchase",
+      "occurred_at": "2026-08-12T00:00:00+00:00",
+      "available_at": "2026-08-13T00:00:00+00:00",
+      "channel": "event",
+      "order_id": "order-5"
+    },
+    {
+      "event_id": "event-6-0",
+      "device_id": "device-6",
+      "market": "south",
+      "kind": "visit",
+      "occurred_at": "2026-08-07T00:00:00+00:00",
+      "available_at": "2026-08-08T00:00:00+00:00",
+      "channel": "natural",
+      "order_id": null
+    },
+    {
+      "event_id": "event-6-1",
+      "device_id": "device-6",
+      "market": "north",
+      "kind": "consult",
+      "occurred_at": "2026-08-19T00:00:00+00:00",
+      "available_at": "2026-08-20T00:00:00+00:00",
+      "channel": "natural",
+      "order_id": null
+    },
+    {
+      "event_id": "event-6-2",
+      "device_id": "device-6",
+      "market": "south",
+      "kind": "purchase",
+      "occurred_at": "2026-08-31T00:00:00+00:00",
+      "available_at": "2026-09-01T00:00:00+00:00",
+      "channel": "natural",
+      "order_id": "order-6"
+    },
+    {
+      "event_id": "event-7-0",
+      "device_id": "device-7",
+      "market": "south",
+      "kind": "visit",
+      "occurred_at": "2026-08-08T00:00:00+00:00",
+      "available_at": "2026-08-09T00:00:00+00:00",
+      "channel": "event",
+      "order_id": null
+    },
+    {
+      "event_id": "event-7-1",
+      "device_id": "device-7",
+      "market": "north",
+      "kind": "consult",
+      "occurred_at": "2026-08-11T00:00:00+00:00",
+      "available_at": "2026-08-12T00:00:00+00:00",
+      "channel": "event",
+      "order_id": null
+    },
+    {
+      "event_id": "event-7-2",
+      "device_id": "device-7",
+      "market": "south",
+      "kind": "purchase",
+      "occurred_at": "2026-08-14T00:00:00+00:00",
+      "available_at": "2026-08-15T00:00:00+00:00",
+      "channel": "event",
+      "order_id": "order-7"
+    },
+    {
+      "event_id": "event-8-0",
+      "device_id": "device-8",
+      "market": "south",
+      "kind": "visit",
+      "occurred_at": "2026-08-09T00:00:00+00:00",
+      "available_at": "2026-08-10T00:00:00+00:00",
+      "channel": "natural",
+      "order_id": null
+    },
+    {
+      "event_id": "event-8-1",
+      "device_id": "device-8",
+      "market": "north",
+      "kind": "consult",
+      "occurred_at": "2026-08-21T00:00:00+00:00",
+      "available_at": "2026-08-22T00:00:00+00:00",
+      "channel": "natural",
+      "order_id": null
+    },
+    {
+      "event_id": "event-9-0",
+      "device_id": "device-9",
+      "market": "south",
+      "kind": "visit",
+      "occurred_at": "2026-08-10T00:00:00+00:00",
+      "available_at": "2026-08-11T00:00:00+00:00",
+      "channel": "event",
+      "order_id": null
+    },
+    {
+      "event_id": "event-9-1",
+      "device_id": "device-9",
+      "market": "north",
+      "kind": "consult",
+      "occurred_at": "2026-08-13T00:00:00+00:00",
+      "available_at": "2026-08-14T00:00:00+00:00",
+      "channel": "event",
+      "order_id": null
+    },
+    {
+      "event_id": "event-9-2",
+      "device_id": "device-9",
+      "market": "south",
+      "kind": "purchase",
+      "occurred_at": "2026-08-16T00:00:00+00:00",
+      "available_at": "2026-08-17T00:00:00+00:00",
+      "channel": "event",
+      "order_id": "order-9"
+    },
+    {
+      "event_id": "event-10-0",
+      "device_id": "device-10",
+      "market": "south",
+      "kind": "visit",
+      "occurred_at": "2026-08-11T00:00:00+00:00",
+      "available_at": "2026-08-12T00:00:00+00:00",
+      "channel": "natural",
+      "order_id": null
+    },
+    {
+      "event_id": "event-10-1",
+      "device_id": "device-10",
+      "market": "north",
+      "kind": "consult",
+      "occurred_at": "2026-08-23T00:00:00+00:00",
+      "available_at": "2026-08-24T00:00:00+00:00",
+      "channel": "natural",
+      "order_id": null
+    },
+    {
+      "event_id": "event-10-2",
+      "device_id": "device-10",
+      "market": "south",
+      "kind": "purchase",
+      "occurred_at": "2026-09-04T00:00:00+00:00",
+      "available_at": "2026-09-05T00:00:00+00:00",
+      "channel": "natural",
+      "order_id": "order-10"
+    },
+    {
+      "event_id": "event-11-0",
+      "device_id": "device-11",
+      "market": "south",
+      "kind": "visit",
+      "occurred_at": "2026-08-12T00:00:00+00:00",
+      "available_at": "2026-08-13T00:00:00+00:00",
+      "channel": "event",
+      "order_id": null
+    },
+    {
+      "event_id": "event-11-1",
+      "device_id": "device-11",
+      "market": "north",
+      "kind": "consult",
+      "occurred_at": "2026-08-15T00:00:00+00:00",
+      "available_at": "2026-08-16T00:00:00+00:00",
+      "channel": "event",
+      "order_id": null
+    },
+    {
+      "event_id": "event-11-2",
+      "device_id": "device-11",
+      "market": "south",
+      "kind": "purchase",
+      "occurred_at": "2026-08-18T00:00:00+00:00",
+      "available_at": "2026-08-19T00:00:00+00:00",
+      "channel": "event",
+      "order_id": "order-11"
+    },
+    {
+      "event_id": "event-12-0",
+      "device_id": "device-12",
+      "market": "south",
+      "kind": "visit",
+      "occurred_at": "2026-08-13T00:00:00+00:00",
+      "available_at": "2026-08-14T00:00:00+00:00",
+      "channel": "natural",
+      "order_id": null
+    },
+    {
+      "event_id": "event-12-1",
+      "device_id": "device-12",
+      "market": "north",
+      "kind": "consult",
+      "occurred_at": "2026-08-25T00:00:00+00:00",
+      "available_at": "2026-08-26T00:00:00+00:00",
+      "channel": "natural",
+      "order_id": null
+    },
+    {
+      "event_id": "event-13-0",
+      "device_id": "device-13",
+      "market": "south",
+      "kind": "visit",
+      "occurred_at": "2026-08-14T00:00:00+00:00",
+      "available_at": "2026-08-15T00:00:00+00:00",
+      "channel": "event",
+      "order_id": null
+    },
+    {
+      "event_id": "event-13-1",
+      "device_id": "device-13",
+      "market": "north",
+      "kind": "consult",
+      "occurred_at": "2026-08-17T00:00:00+00:00",
+      "available_at": "2026-08-18T00:00:00+00:00",
+      "channel": "event",
+      "order_id": null
+    },
+    {
+      "event_id": "event-13-2",
+      "device_id": "device-13",
+      "market": "south",
+      "kind": "purchase",
+      "occurred_at": "2026-08-20T00:00:00+00:00",
+      "available_at": "2026-08-21T00:00:00+00:00",
+      "channel": "event",
+      "order_id": "order-13"
+    },
+    {
+      "event_id": "event-14-0",
+      "device_id": "device-14",
+      "market": "south",
+      "kind": "visit",
+      "occurred_at": "2026-08-15T00:00:00+00:00",
+      "available_at": "2026-08-16T00:00:00+00:00",
+      "channel": "natural",
+      "order_id": null
+    },
+    {
+      "event_id": "event-14-1",
+      "device_id": "device-14",
+      "market": "north",
+      "kind": "consult",
+      "occurred_at": "2026-08-27T00:00:00+00:00",
+      "available_at": "2026-08-28T00:00:00+00:00",
+      "channel": "natural",
+      "order_id": null
+    },
+    {
+      "event_id": "event-14-2",
+      "device_id": "device-14",
+      "market": "south",
+      "kind": "purchase",
+      "occurred_at": "2026-09-08T00:00:00+00:00",
+      "available_at": "2026-09-09T00:00:00+00:00",
+      "channel": "natural",
+      "order_id": "order-14"
+    },
+    {
+      "event_id": "event-15-0",
+      "device_id": "device-15",
+      "market": "south",
+      "kind": "visit",
+      "occurred_at": "2026-08-16T00:00:00+00:00",
+      "available_at": "2026-08-17T00:00:00+00:00",
+      "channel": "event",
+      "order_id": null
+    },
+    {
+      "event_id": "event-15-1",
+      "device_id": "device-15",
+      "market": "north",
+      "kind": "consult",
+      "occurred_at": "2026-08-19T00:00:00+00:00",
+      "available_at": "2026-08-20T00:00:00+00:00",
+      "channel": "event",
+      "order_id": null
+    },
+    {
+      "event_id": "event-15-2",
+      "device_id": "device-15",
+      "market": "south",
+      "kind": "purchase",
+      "occurred_at": "2026-08-22T00:00:00+00:00",
+      "available_at": "2026-08-23T00:00:00+00:00",
+      "channel": "event",
+      "order_id": "order-15"
+    },
+    {
+      "event_id": "event-16-0",
+      "device_id": "device-16",
+      "market": "south",
+      "kind": "visit",
+      "occurred_at": "2026-08-17T00:00:00+00:00",
+      "available_at": "2026-08-18T00:00:00+00:00",
+      "channel": "natural",
+      "order_id": null
+    },
+    {
+      "event_id": "event-16-1",
+      "device_id": "device-16",
+      "market": "north",
+      "kind": "consult",
+      "occurred_at": "2026-08-29T00:00:00+00:00",
+      "available_at": "2026-08-30T00:00:00+00:00",
+      "channel": "natural",
+      "order_id": null
+    },
+    {
+      "event_id": "event-17-0",
+      "device_id": "device-17",
+      "market": "south",
+      "kind": "visit",
+      "occurred_at": "2026-08-18T00:00:00+00:00",
+      "available_at": "2026-08-19T00:00:00+00:00",
+      "channel": "event",
+      "order_id": null
+    },
+    {
+      "event_id": "event-17-1",
+      "device_id": "device-17",
+      "market": "north",
+      "kind": "consult",
+      "occurred_at": "2026-08-21T00:00:00+00:00",
+      "available_at": "2026-08-22T00:00:00+00:00",
+      "channel": "event",
+      "order_id": null
+    },
+    {
+      "event_id": "event-17-2",
+      "device_id": "device-17",
+      "market": "south",
+      "kind": "purchase",
+      "occurred_at": "2026-08-24T00:00:00+00:00",
+      "available_at": "2026-08-25T00:00:00+00:00",
+      "channel": "event",
+      "order_id": "order-17"
+    },
+    {
+      "event_id": "event-18-0",
+      "device_id": "device-18",
+      "market": "south",
+      "kind": "visit",
+      "occurred_at": "2026-08-19T00:00:00+00:00",
+      "available_at": "2026-08-20T00:00:00+00:00",
+      "channel": "natural",
+      "order_id": null
+    },
+    {
+      "event_id": "event-18-1",
+      "device_id": "device-18",
+      "market": "north",
+      "kind": "consult",
+      "occurred_at": "2026-08-31T00:00:00+00:00",
+      "available_at": "2026-09-01T00:00:00+00:00",
+      "channel": "natural",
+      "order_id": null
+    },
+    {
+      "event_id": "event-18-2",
+      "device_id": "device-18",
+      "market": "south",
+      "kind": "purchase",
+      "occurred_at": "2026-09-12T00:00:00+00:00",
+      "available_at": "2026-09-13T00:00:00+00:00",
+      "channel": "natural",
+      "order_id": "order-18"
+    },
+    {
+      "event_id": "event-19-0",
+      "device_id": "device-19",
+      "market": "south",
+      "kind": "visit",
+      "occurred_at": "2026-08-20T00:00:00+00:00",
+      "available_at": "2026-08-21T00:00:00+00:00",
+      "channel": "event",
+      "order_id": null
+    },
+    {
+      "event_id": "event-19-1",
+      "device_id": "device-19",
+      "market": "north",
+      "kind": "consult",
+      "occurred_at": "2026-08-23T00:00:00+00:00",
+      "available_at": "2026-08-24T00:00:00+00:00",
+      "channel": "event",
+      "order_id": null
+    },
+    {
+      "event_id": "event-19-2",
+      "device_id": "device-19",
+      "market": "south",
+      "kind": "purchase",
+      "occurred_at": "2026-08-26T00:00:00+00:00",
+      "available_at": "2026-08-27T00:00:00+00:00",
+      "channel": "event",
+      "order_id": "order-19"
+    },
+    {
+      "event_id": "event-20-0",
+      "device_id": "device-20",
+      "market": "south",
+      "kind": "visit",
+      "occurred_at": "2026-08-21T00:00:00+00:00",
+      "available_at": "2026-08-22T00:00:00+00:00",
+      "channel": "natural",
+      "order_id": null
+    },
+    {
+      "event_id": "event-20-1",
+      "device_id": "device-20",
+      "market": "north",
+      "kind": "consult",
+      "occurred_at": "2026-09-02T00:00:00+00:00",
+      "available_at": "2026-09-03T00:00:00+00:00",
+      "channel": "natural",
+      "order_id": null
+    },
+    {
+      "event_id": "event-21-0",
+      "device_id": "device-21",
+      "market": "south",
+      "kind": "visit",
+      "occurred_at": "2026-08-22T00:00:00+00:00",
+      "available_at": "2026-08-23T00:00:00+00:00",
+      "channel": "event",
+      "order_id": null
+    },
+    {
+      "event_id": "event-21-1",
+      "device_id": "device-21",
+      "market": "north",
+      "kind": "consult",
+      "occurred_at": "2026-08-25T00:00:00+00:00",
+      "available_at": "2026-08-26T00:00:00+00:00",
+      "channel": "event",
+      "order_id": null
+    },
+    {
+      "event_id": "event-21-2",
+      "device_id": "device-21",
+      "market": "south",
+      "kind": "purchase",
+      "occurred_at": "2026-08-28T00:00:00+00:00",
+      "available_at": "2026-08-29T00:00:00+00:00",
+      "channel": "event",
+      "order_id": "order-21"
+    },
+    {
+      "event_id": "event-22-0",
+      "device_id": "device-22",
+      "market": "south",
+      "kind": "visit",
+      "occurred_at": "2026-08-23T00:00:00+00:00",
+      "available_at": "2026-08-24T00:00:00+00:00",
+      "channel": "natural",
+      "order_id": null
+    },
+    {
+      "event_id": "event-22-1",
+      "device_id": "device-22",
+      "market": "north",
+      "kind": "consult",
+      "occurred_at": "2026-09-04T00:00:00+00:00",
+      "available_at": "2026-09-05T00:00:00+00:00",
+      "channel": "natural",
+      "order_id": null
+    },
+    {
+      "event_id": "event-22-2",
+      "device_id": "device-22",
+      "market": "south",
+      "kind": "purchase",
+      "occurred_at": "2026-09-16T00:00:00+00:00",
+      "available_at": "2026-09-17T00:00:00+00:00",
+      "channel": "natural",
+      "order_id": "order-22"
+    },
+    {
+      "event_id": "event-23-0",
+      "device_id": "device-23",
+      "market": "south",
+      "kind": "visit",
+      "occurred_at": "2026-08-24T00:00:00+00:00",
+      "available_at": "2026-08-25T00:00:00+00:00",
+      "channel": "event",
+      "order_id": null
+    },
+    {
+      "event_id": "event-23-1",
+      "device_id": "device-23",
+      "market": "north",
+      "kind": "consult",
+      "occurred_at": "2026-08-27T00:00:00+00:00",
+      "available_at": "2026-08-28T00:00:00+00:00",
+      "channel": "event",
+      "order_id": null
+    },
+    {
+      "event_id": "event-23-2",
+      "device_id": "device-23",
+      "market": "south",
+      "kind": "purchase",
+      "occurred_at": "2026-08-30T00:00:00+00:00",
+      "available_at": "2026-08-31T00:00:00+00:00",
+      "channel": "event",
+      "order_id": "order-23"
+    },
+    {
+      "event_id": "event-24-0",
+      "device_id": "device-24",
+      "market": "south",
+      "kind": "visit",
+      "occurred_at": "2026-08-25T00:00:00+00:00",
+      "available_at": "2026-08-26T00:00:00+00:00",
+      "channel": "natural",
+      "order_id": null
+    },
+    {
+      "event_id": "event-24-1",
+      "device_id": "device-24",
+      "market": "north",
+      "kind": "consult",
+      "occurred_at": "2026-09-06T00:00:00+00:00",
+      "available_at": "2026-09-07T00:00:00+00:00",
+      "channel": "natural",
+      "order_id": null
+    },
+    {
+      "event_id": "event-25-0",
+      "device_id": "device-25",
+      "market": "south",
+      "kind": "visit",
+      "occurred_at": "2026-08-26T00:00:00+00:00",
+      "available_at": "2026-08-27T00:00:00+00:00",
+      "channel": "event",
+      "order_id": null
+    },
+    {
+      "event_id": "event-25-1",
+      "device_id": "device-25",
+      "market": "north",
+      "kind": "consult",
+      "occurred_at": "2026-08-29T00:00:00+00:00",
+      "available_at": "2026-08-30T00:00:00+00:00",
+      "channel": "event",
+      "order_id": null
+    },
+    {
+      "event_id": "event-25-2",
+      "device_id": "device-25",
+      "market": "south",
+      "kind": "purchase",
+      "occurred_at": "2026-09-01T00:00:00+00:00",
+      "available_at": "2026-09-02T00:00:00+00:00",
+      "channel": "event",
+      "order_id": "order-25"
+    },
+    {
+      "event_id": "event-26-0",
+      "device_id": "device-26",
+      "market": "south",
+      "kind": "visit",
+      "occurred_at": "2026-08-27T00:00:00+00:00",
+      "available_at": "2026-08-28T00:00:00+00:00",
+      "channel": "natural",
+      "order_id": null
+    },
+    {
+      "event_id": "event-26-1",
+      "device_id": "device-26",
+      "market": "north",
+      "kind": "consult",
+      "occurred_at": "2026-09-08T00:00:00+00:00",
+      "available_at": "2026-09-09T00:00:00+00:00",
+      "channel": "natural",
+      "order_id": null
+    },
+    {
+      "event_id": "event-26-2",
+      "device_id": "device-26",
+      "market": "south",
+      "kind": "purchase",
+      "occurred_at": "2026-09-20T00:00:00+00:00",
+      "available_at": "2026-09-21T00:00:00+00:00",
+      "channel": "natural",
+      "order_id": "order-26"
+    },
+    {
+      "event_id": "event-27-0",
+      "device_id": "device-27",
+      "market": "south",
+      "kind": "visit",
+      "occurred_at": "2026-08-28T00:00:00+00:00",
+      "available_at": "2026-08-29T00:00:00+00:00",
+      "channel": "event",
+      "order_id": null
+    },
+    {
+      "event_id": "event-27-1",
+      "device_id": "device-27",
+      "market": "north",
+      "kind": "consult",
+      "occurred_at": "2026-08-31T00:00:00+00:00",
+      "available_at": "2026-09-01T00:00:00+00:00",
+      "channel": "event",
+      "order_id": null
+    },
+    {
+      "event_id": "event-27-2",
+      "device_id": "device-27",
+      "market": "south",
+      "kind": "purchase",
+      "occurred_at": "2026-09-03T00:00:00+00:00",
+      "available_at": "2026-09-04T00:00:00+00:00",
+      "channel": "event",
+      "order_id": "order-27"
+    },
+    {
+      "event_id": "event-28-0",
+      "device_id": "device-28",
+      "market": "south",
+      "kind": "visit",
+      "occurred_at": "2026-08-29T00:00:00+00:00",
+      "available_at": "2026-08-30T00:00:00+00:00",
+      "channel": "natural",
+      "order_id": null
+    },
+    {
+      "event_id": "event-28-1",
+      "device_id": "device-28",
+      "market": "north",
+      "kind": "consult",
+      "occurred_at": "2026-09-10T00:00:00+00:00",
+      "available_at": "2026-09-11T00:00:00+00:00",
+      "channel": "natural",
+      "order_id": null
+    },
+    {
+      "event_id": "event-29-0",
+      "device_id": "device-29",
+      "market": "south",
+      "kind": "visit",
+      "occurred_at": "2026-08-30T00:00:00+00:00",
+      "available_at": "2026-08-31T00:00:00+00:00",
+      "channel": "event",
+      "order_id": null
+    },
+    {
+      "event_id": "event-29-1",
+      "device_id": "device-29",
+      "market": "north",
+      "kind": "consult",
+      "occurred_at": "2026-09-02T00:00:00+00:00",
+      "available_at": "2026-09-03T00:00:00+00:00",
+      "channel": "event",
+      "order_id": null
+    },
+    {
+      "event_id": "event-29-2",
+      "device_id": "device-29",
+      "market": "south",
+      "kind": "purchase",
+      "occurred_at": "2026-09-05T00:00:00+00:00",
+      "available_at": "2026-09-06T00:00:00+00:00",
+      "channel": "event",
+      "order_id": "order-29"
+    },
+    {
+      "event_id": "event-30-0",
+      "device_id": "device-30",
+      "market": "south",
+      "kind": "visit",
+      "occurred_at": "2026-08-31T00:00:00+00:00",
+      "available_at": "2026-09-01T00:00:00+00:00",
+      "channel": "natural",
+      "order_id": null
+    },
+    {
+      "event_id": "event-30-1",
+      "device_id": "device-30",
+      "market": "north",
+      "kind": "consult",
+      "occurred_at": "2026-09-12T00:00:00+00:00",
+      "available_at": "2026-09-13T00:00:00+00:00",
+      "channel": "natural",
+      "order_id": null
+    },
+    {
+      "event_id": "event-30-2",
+      "device_id": "device-30",
+      "market": "south",
+      "kind": "purchase",
+      "occurred_at": "2026-09-24T00:00:00+00:00",
+      "available_at": "2026-09-25T00:00:00+00:00",
+      "channel": "natural",
+      "order_id": "order-30"
+    },
+    {
+      "event_id": "event-31-0",
+      "device_id": "device-31",
+      "market": "south",
+      "kind": "visit",
+      "occurred_at": "2026-09-01T00:00:00+00:00",
+      "available_at": "2026-09-02T00:00:00+00:00",
+      "channel": "event",
+      "order_id": null
+    },
+    {
+      "event_id": "event-31-1",
+      "device_id": "device-31",
+      "market": "north",
+      "kind": "consult",
+      "occurred_at": "2026-09-04T00:00:00+00:00",
+      "available_at": "2026-09-05T00:00:00+00:00",
+      "channel": "event",
+      "order_id": null
+    },
+    {
+      "event_id": "event-31-2",
+      "device_id": "device-31",
+      "market": "south",
+      "kind": "purchase",
+      "occurred_at": "2026-09-07T00:00:00+00:00",
+      "available_at": "2026-09-08T00:00:00+00:00",
+      "channel": "event",
+      "order_id": "order-31"
+    },
+    {
+      "event_id": "event-32-0",
+      "device_id": "device-32",
+      "market": "south",
+      "kind": "visit",
+      "occurred_at": "2026-09-02T00:00:00+00:00",
+      "available_at": "2026-09-03T00:00:00+00:00",
+      "channel": "natural",
+      "order_id": null
+    },
+    {
+      "event_id": "event-32-1",
+      "device_id": "device-32",
+      "market": "north",
+      "kind": "consult",
+      "occurred_at": "2026-09-14T00:00:00+00:00",
+      "available_at": "2026-09-15T00:00:00+00:00",
+      "channel": "natural",
+      "order_id": null
+    },
+    {
+      "event_id": "event-33-0",
+      "device_id": "device-33",
+      "market": "south",
+      "kind": "visit",
+      "occurred_at": "2026-09-03T00:00:00+00:00",
+      "available_at": "2026-09-04T00:00:00+00:00",
+      "channel": "event",
+      "order_id": null
+    },
+    {
+      "event_id": "event-33-1",
+      "device_id": "device-33",
+      "market": "north",
+      "kind": "consult",
+      "occurred_at": "2026-09-06T00:00:00+00:00",
+      "available_at": "2026-09-07T00:00:00+00:00",
+      "channel": "event",
+      "order_id": null
+    },
+    {
+      "event_id": "event-33-2",
+      "device_id": "device-33",
+      "market": "south",
+      "kind": "purchase",
+      "occurred_at": "2026-09-09T00:00:00+00:00",
+      "available_at": "2026-09-10T00:00:00+00:00",
+      "channel": "event",
+      "order_id": "order-33"
+    },
+    {
+      "event_id": "event-34-0",
+      "device_id": "device-34",
+      "market": "south",
+      "kind": "visit",
+      "occurred_at": "2026-09-04T00:00:00+00:00",
+      "available_at": "2026-09-05T00:00:00+00:00",
+      "channel": "natural",
+      "order_id": null
+    },
+    {
+      "event_id": "event-34-1",
+      "device_id": "device-34",
+      "market": "north",
+      "kind": "consult",
+      "occurred_at": "2026-09-16T00:00:00+00:00",
+      "available_at": "2026-09-17T00:00:00+00:00",
+      "channel": "natural",
+      "order_id": null
+    },
+    {
+      "event_id": "event-34-2",
+      "device_id": "device-34",
+      "market": "south",
+      "kind": "purchase",
+      "occurred_at": "2026-09-28T00:00:00+00:00",
+      "available_at": "2026-09-29T00:00:00+00:00",
+      "channel": "natural",
+      "order_id": "order-34"
+    },
+    {
+      "event_id": "event-35-0",
+      "device_id": "device-35",
+      "market": "south",
+      "kind": "visit",
+      "occurred_at": "2026-09-05T00:00:00+00:00",
+      "available_at": "2026-09-06T00:00:00+00:00",
+      "channel": "event",
+      "order_id": null
+    },
+    {
+      "event_id": "event-35-1",
+      "device_id": "device-35",
+      "market": "north",
+      "kind": "consult",
+      "occurred_at": "2026-09-08T00:00:00+00:00",
+      "available_at": "2026-09-09T00:00:00+00:00",
+      "channel": "event",
+      "order_id": null
+    },
+    {
+      "event_id": "event-35-2",
+      "device_id": "device-35",
+      "market": "south",
+      "kind": "purchase",
+      "occurred_at": "2026-09-11T00:00:00+00:00",
+      "available_at": "2026-09-12T00:00:00+00:00",
+      "channel": "event",
+      "order_id": "order-35"
+    },
+    {
+      "event_id": "event-36-0",
+      "device_id": "device-36",
+      "market": "south",
+      "kind": "visit",
+      "occurred_at": "2026-09-06T00:00:00+00:00",
+      "available_at": "2026-09-07T00:00:00+00:00",
+      "channel": "natural",
+      "order_id": null
+    },
+    {
+      "event_id": "event-36-1",
+      "device_id": "device-36",
+      "market": "north",
+      "kind": "consult",
+      "occurred_at": "2026-09-18T00:00:00+00:00",
+      "available_at": "2026-09-19T00:00:00+00:00",
+      "channel": "natural",
+      "order_id": null
+    },
+    {
+      "event_id": "event-37-0",
+      "device_id": "device-37",
+      "market": "south",
+      "kind": "visit",
+      "occurred_at": "2026-09-07T00:00:00+00:00",
+      "available_at": "2026-09-08T00:00:00+00:00",
+      "channel": "event",
+      "order_id": null
+    },
+    {
+      "event_id": "event-37-1",
+      "device_id": "device-37",
+      "market": "north",
+      "kind": "consult",
+      "occurred_at": "2026-09-10T00:00:00+00:00",
+      "available_at": "2026-09-11T00:00:00+00:00",
+      "channel": "event",
+      "order_id": null
+    },
+    {
+      "event_id": "event-37-2",
+      "device_id": "device-37",
+      "market": "south",
+      "kind": "purchase",
+      "occurred_at": "2026-09-13T00:00:00+00:00",
+      "available_at": "2026-09-14T00:00:00+00:00",
+      "channel": "event",
+      "order_id": "order-37"
+    },
+    {
+      "event_id": "event-38-0",
+      "device_id": "device-38",
+      "market": "south",
+      "kind": "visit",
+      "occurred_at": "2026-09-08T00:00:00+00:00",
+      "available_at": "2026-09-09T00:00:00+00:00",
+      "channel": "natural",
+      "order_id": null
+    },
+    {
+      "event_id": "event-38-1",
+      "device_id": "device-38",
+      "market": "north",
+      "kind": "consult",
+      "occurred_at": "2026-09-20T00:00:00+00:00",
+      "available_at": "2026-09-21T00:00:00+00:00",
+      "channel": "natural",
+      "order_id": null
+    },
+    {
+      "event_id": "event-38-2",
+      "device_id": "device-38",
+      "market": "south",
+      "kind": "purchase",
+      "occurred_at": "2026-10-02T00:00:00+00:00",
+      "available_at": "2026-10-03T00:00:00+00:00",
+      "channel": "natural",
+      "order_id": "order-38"
+    },
+    {
+      "event_id": "event-39-0",
+      "device_id": "device-39",
+      "market": "south",
+      "kind": "visit",
+      "occurred_at": "2026-09-09T00:00:00+00:00",
+      "available_at": "2026-09-10T00:00:00+00:00",
+      "channel": "event",
+      "order_id": null
+    },
+    {
+      "event_id": "event-39-1",
+      "device_id": "device-39",
+      "market": "north",
+      "kind": "consult",
+      "occurred_at": "2026-09-12T00:00:00+00:00",
+      "available_at": "2026-09-13T00:00:00+00:00",
+      "channel": "event",
+      "order_id": null
+    },
+    {
+      "event_id": "event-39-2",
+      "device_id": "device-39",
+      "market": "south",
+      "kind": "purchase",
+      "occurred_at": "2026-09-15T00:00:00+00:00",
+      "available_at": "2026-09-16T00:00:00+00:00",
+      "channel": "event",
+      "order_id": "order-39"
+    },
+    {
+      "event_id": "event-40-0",
+      "device_id": "device-40",
+      "market": "south",
+      "kind": "visit",
+      "occurred_at": "2026-09-10T00:00:00+00:00",
+      "available_at": "2026-09-11T00:00:00+00:00",
+      "channel": "natural",
+      "order_id": null
+    },
+    {
+      "event_id": "event-40-1",
+      "device_id": "device-40",
+      "market": "north",
+      "kind": "consult",
+      "occurred_at": "2026-09-22T00:00:00+00:00",
+      "available_at": "2026-09-23T00:00:00+00:00",
+      "channel": "natural",
+      "order_id": null
+    },
+    {
+      "event_id": "event-41-0",
+      "device_id": "device-41",
+      "market": "south",
+      "kind": "visit",
+      "occurred_at": "2026-09-11T00:00:00+00:00",
+      "available_at": "2026-09-12T00:00:00+00:00",
+      "channel": "event",
+      "order_id": null
+    },
+    {
+      "event_id": "event-41-1",
+      "device_id": "device-41",
+      "market": "north",
+      "kind": "consult",
+      "occurred_at": "2026-09-14T00:00:00+00:00",
+      "available_at": "2026-09-15T00:00:00+00:00",
+      "channel": "event",
+      "order_id": null
+    },
+    {
+      "event_id": "event-41-2",
+      "device_id": "device-41",
+      "market": "south",
+      "kind": "purchase",
+      "occurred_at": "2026-09-17T00:00:00+00:00",
+      "available_at": "2026-09-18T00:00:00+00:00",
+      "channel": "event",
+      "order_id": "order-41"
+    },
+    {
+      "event_id": "event-42-0",
+      "device_id": "device-42",
+      "market": "south",
+      "kind": "visit",
+      "occurred_at": "2026-09-12T00:00:00+00:00",
+      "available_at": "2026-09-13T00:00:00+00:00",
+      "channel": "natural",
+      "order_id": null
+    },
+    {
+      "event_id": "event-42-1",
+      "device_id": "device-42",
+      "market": "north",
+      "kind": "consult",
+      "occurred_at": "2026-09-24T00:00:00+00:00",
+      "available_at": "2026-09-25T00:00:00+00:00",
+      "channel": "natural",
+      "order_id": null
+    },
+    {
+      "event_id": "event-42-2",
+      "device_id": "device-42",
+      "market": "south",
+      "kind": "purchase",
+      "occurred_at": "2026-10-06T00:00:00+00:00",
+      "available_at": "2026-10-07T00:00:00+00:00",
+      "channel": "natural",
+      "order_id": "order-42"
+    },
+    {
+      "event_id": "event-43-0",
+      "device_id": "device-43",
+      "market": "south",
+      "kind": "visit",
+      "occurred_at": "2026-09-13T00:00:00+00:00",
+      "available_at": "2026-09-14T00:00:00+00:00",
+      "channel": "event",
+      "order_id": null
+    },
+    {
+      "event_id": "event-43-1",
+      "device_id": "device-43",
+      "market": "north",
+      "kind": "consult",
+      "occurred_at": "2026-09-16T00:00:00+00:00",
+      "available_at": "2026-09-17T00:00:00+00:00",
+      "channel": "event",
+      "order_id": null
+    },
+    {
+      "event_id": "event-43-2",
+      "device_id": "device-43",
+      "market": "south",
+      "kind": "purchase",
+      "occurred_at": "2026-09-19T00:00:00+00:00",
+      "available_at": "2026-09-20T00:00:00+00:00",
+      "channel": "event",
+      "order_id": "order-43"
+    },
+    {
+      "event_id": "event-44-0",
+      "device_id": "device-44",
+      "market": "south",
+      "kind": "visit",
+      "occurred_at": "2026-09-14T00:00:00+00:00",
+      "available_at": "2026-09-15T00:00:00+00:00",
+      "channel": "natural",
+      "order_id": null
+    },
+    {
+      "event_id": "event-44-1",
+      "device_id": "device-44",
+      "market": "north",
+      "kind": "consult",
+      "occurred_at": "2026-09-26T00:00:00+00:00",
+      "available_at": "2026-09-27T00:00:00+00:00",
+      "channel": "natural",
+      "order_id": null
+    },
+    {
+      "event_id": "event-45-0",
+      "device_id": "device-45",
+      "market": "south",
+      "kind": "visit",
+      "occurred_at": "2026-09-15T00:00:00+00:00",
+      "available_at": "2026-09-16T00:00:00+00:00",
+      "channel": "event",
+      "order_id": null
+    },
+    {
+      "event_id": "event-45-1",
+      "device_id": "device-45",
+      "market": "north",
+      "kind": "consult",
+      "occurred_at": "2026-09-18T00:00:00+00:00",
+      "available_at": "2026-09-19T00:00:00+00:00",
+      "channel": "event",
+      "order_id": null
+    },
+    {
+      "event_id": "event-45-2",
+      "device_id": "device-45",
+      "market": "south",
+      "kind": "purchase",
+      "occurred_at": "2026-09-21T00:00:00+00:00",
+      "available_at": "2026-09-22T00:00:00+00:00",
+      "channel": "event",
+      "order_id": "order-45"
+    },
+    {
+      "event_id": "event-46-0",
+      "device_id": "device-46",
+      "market": "south",
+      "kind": "visit",
+      "occurred_at": "2026-09-16T00:00:00+00:00",
+      "available_at": "2026-09-17T00:00:00+00:00",
+      "channel": "natural",
+      "order_id": null
+    },
+    {
+      "event_id": "event-46-1",
+      "device_id": "device-46",
+      "market": "north",
+      "kind": "consult",
+      "occurred_at": "2026-09-28T00:00:00+00:00",
+      "available_at": "2026-09-29T00:00:00+00:00",
+      "channel": "natural",
+      "order_id": null
+    },
+    {
+      "event_id": "event-46-2",
+      "device_id": "device-46",
+      "market": "south",
+      "kind": "purchase",
+      "occurred_at": "2026-10-10T00:00:00+00:00",
+      "available_at": "2026-10-11T00:00:00+00:00",
+      "channel": "natural",
+      "order_id": "order-46"
+    },
+    {
+      "event_id": "event-47-0",
+      "device_id": "device-47",
+      "market": "south",
+      "kind": "visit",
+      "occurred_at": "2026-09-17T00:00:00+00:00",
+      "available_at": "2026-09-18T00:00:00+00:00",
+      "channel": "event",
+      "order_id": null
+    },
+    {
+      "event_id": "event-47-1",
+      "device_id": "device-47",
+      "market": "north",
+      "kind": "consult",
+      "occurred_at": "2026-09-20T00:00:00+00:00",
+      "available_at": "2026-09-21T00:00:00+00:00",
+      "channel": "event",
+      "order_id": null
+    },
+    {
+      "event_id": "event-47-2",
+      "device_id": "device-47",
+      "market": "south",
+      "kind": "purchase",
+      "occurred_at": "2026-09-23T00:00:00+00:00",
+      "available_at": "2026-09-24T00:00:00+00:00",
+      "channel": "event",
+      "order_id": "order-47"
+    },
+    {
+      "event_id": "event-48-0",
+      "device_id": "device-48",
+      "market": "south",
+      "kind": "visit",
+      "occurred_at": "2026-09-18T00:00:00+00:00",
+      "available_at": "2026-09-19T00:00:00+00:00",
+      "channel": "natural",
+      "order_id": null
+    },
+    {
+      "event_id": "event-48-1",
+      "device_id": "device-48",
+      "market": "north",
+      "kind": "consult",
+      "occurred_at": "2026-09-30T00:00:00+00:00",
+      "available_at": "2026-10-01T00:00:00+00:00",
+      "channel": "natural",
+      "order_id": null
+    },
+    {
+      "event_id": "event-49-0",
+      "device_id": "device-49",
+      "market": "south",
+      "kind": "visit",
+      "occurred_at": "2026-09-19T00:00:00+00:00",
+      "available_at": "2026-09-20T00:00:00+00:00",
+      "channel": "event",
+      "order_id": null
+    },
+    {
+      "event_id": "event-49-1",
+      "device_id": "device-49",
+      "market": "north",
+      "kind": "consult",
+      "occurred_at": "2026-09-22T00:00:00+00:00",
+      "available_at": "2026-09-23T00:00:00+00:00",
+      "channel": "event",
+      "order_id": null
+    },
+    {
+      "event_id": "event-49-2",
+      "device_id": "device-49",
+      "market": "south",
+      "kind": "purchase",
+      "occurred_at": "2026-09-25T00:00:00+00:00",
+      "available_at": "2026-09-26T00:00:00+00:00",
+      "channel": "event",
+      "order_id": "order-49"
+    }
+  ],
+  "identity_changes": [
+    {
+      "change_id": "link-1",
+      "device_ids": [
+        "device-1",
+        "device-2"
+      ],
+      "person_id": "person-1",
+      "kind": "merge",
+      "effective_at": "2026-08-01T00:00:00+00:00",
+      "available_at": "2026-08-21T00:00:00+00:00"
+    },
+    {
+      "change_id": "unlink-1",
+      "device_ids": [
+        "device-2"
+      ],
+      "person_id": "person-2",
+      "kind": "split",
+      "supersedes": "link-1",
+      "effective_at": "2026-08-01T00:00:00+00:00",
+      "available_at": "2026-10-10T00:00:00+00:00"
+    }
+  ],
+  "refunds": [
+    {
+      "order_id": "order-2",
+      "effective_at": "2026-09-12T00:00:00+00:00",
+      "available_at": "2026-10-20T00:00:00+00:00",
+      "full_refund": true
+    }
+  ],
+  "cohort_policy": {
+    "entry": "first_visit",
+    "horizon_days": 30,
+    "historical_cutoffs": [
+      "2026-09-15T00:00:00+00:00",
+      "2026-10-30T00:00:00+00:00"
+    ]
+  },
+  "baseline_case_id": "twin_market_flow-demo"
+}
